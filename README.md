@@ -7,7 +7,7 @@ A simple node app with API endpoints to control a Roku on your local network. Wo
 
 ## Endpoints
 - `/` - Lists out all installed apps with their ID, title, and URL to their icon
-- `/launch/[APPID]` - Launches an app (if installed)
+- `/launch/[APPID]` - Launches an installed app (replace [APPID] with the appropriate App ID)
 
 ## TODO
 ### Core
