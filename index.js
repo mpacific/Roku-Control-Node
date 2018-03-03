@@ -3,8 +3,11 @@ const roku = require('./lib/roku')
 
 let app = express()
 
+app.get('/launch/:appId', (req, res) => {
+  return roku.init(req, res, 'launchApp')
+})
 app.get('/', (req, res) => {
-  roku.init(res, 'listApps')
+  return roku.init(req, res, 'listApps')
 })
 
 app.listen(1975)
