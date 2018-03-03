@@ -3,7 +3,7 @@ A simple node app with API endpoints to control a Roku on your local network. Wo
 
 ## Install
 - Install node modules via `npm install`
-- Start up app with `node index.js` (will launch on Port 1975)
+- Start up app with `node index.js` (will launch on port 1975)
 
 ## Endpoints
 - `/` - Lists out all installed apps with their ID, title, and URL to their icon
