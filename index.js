@@ -1,6 +1,10 @@
 const express = require('express')
 const roku = require('./lib/roku')
 
+// TODO - README
+// TODO - Gulp tasks for standard and tests (see roku.js for tests TODO)
+// TODO - Gulp task to serve (running standard first)
+
 let app = express()
 
 app.use(function (req, res, next) {
