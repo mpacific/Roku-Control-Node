@@ -23,3 +23,6 @@ A simple node app with API endpoints to control a Roku on your local network. Wo
 
 ## Source Documentation
 APIs used as referenced from the [Roku documentation](https://sdkdocs.roku.com/display/sdkdoc/External+Control+API)
+
+## Example UI
+A quick & dirty example React app has been created to show the interactions with the server. [You can access it here.](https://github.com/mpacific/Roku-Control-React)
