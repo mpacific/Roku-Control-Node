@@ -20,6 +20,7 @@ A simple node app with API endpoints to control a Roku on your local network. Wo
 
 ### Features
 - Mark app as active in the app list
+- Support for multiple Rokus in a network
 
 ## Source Documentation
 APIs used as referenced from the [Roku documentation](https://sdkdocs.roku.com/display/sdkdoc/External+Control+API)
