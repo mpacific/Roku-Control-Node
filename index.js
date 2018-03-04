@@ -14,6 +14,9 @@ app.use(function (req, res, next) {
   next()
 })
 
+app.get('/key/:key', (req, res) => {
+  return roku.init(req, res, 'keyPress')
+})
 app.get('/launch/:appId', (req, res) => {
   return roku.init(req, res, 'launchApp')
 })

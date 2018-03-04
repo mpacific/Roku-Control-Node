@@ -8,6 +8,8 @@ A simple node app with API endpoints to control a Roku on your local network. Wo
 ## Endpoints
 - `/` - Lists out all installed apps with their ID, title, and URL to their icon
 - `/launch/[APPID]` - Launches an installed app (replace [APPID] with the appropriate App ID)
+- `/key/[KEY]` - Sends a single character (for keyboard screens) or preset command to the Roku (replace [KEY] with the character or command)
+  - Available presets: `'Home', 'Rev', 'Fwd', 'Play', 'Select', 'Left', 'Right', 'Down', 'Up', 'Back', 'InstantReplay', 'Info', 'Backspace', 'Search', 'Enter', 'FindRemote'`
 
 ## TODO
 ### Core
@@ -15,13 +17,9 @@ A simple node app with API endpoints to control a Roku on your local network. Wo
 - Tests
 - Gulp tasks
 - Moving certain configurations to a .env file
-- Intelligently caching the discovered IP to a session/config so it doesn't need to rediscover on every query. 
 
 ### Features
 - Mark app as active in the app list
-- Ability to search on the Roku
-- Ability to send key presses (directional, as well as text for input forms)
-- Device info
 
 ## Source Documentation
 APIs used as referenced from the [Roku documentation](https://sdkdocs.roku.com/display/sdkdoc/External+Control+API)
